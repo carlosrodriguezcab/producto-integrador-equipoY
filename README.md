@@ -1,8 +1,10 @@
-# Parque Limpio
+# Producto Integrador — Proyecto II
 
-Sistema web para la gestión y control de acceso a un parque canino.
-Permite a los residentes registrarse, registrar sus mascotas y generar
-códigos QR únicos por mascota para controlar el acceso al parque.
+Sitio web de presentación desarrollado para la materia **Proyecto II** de la Universidad de Guadalajara.
+
+> Este repositorio **no contiene el sistema Parque Limpio** sino el sitio web que documenta y presenta el trabajo realizado durante la materia: actividades, entregas, sprints y el sistema desarrollado por el Equipo Y.
+
+El proyecto trabajado a lo largo del curso es **Parque Limpio**, un sistema web para la gestión y control de acceso a un parque canino. Desarrollado con la metodología ágil **SCRUM** en dos sprints, cubriendo las funcionalidades de registro de usuario, inicio de sesión y registro de mascotas con código QR.
 
 ## Equipo Y
 
@@ -15,15 +17,23 @@ códigos QR únicos por mascota para controlar el acceso al parque.
 
 ## Tecnologías
 
-- Firebase Firestore — base de datos y persistencia
-- Firebase Authentication — autenticación de usuarios
-- HTML / CSS / JavaScript — frontend
-- QR Code API — generación de códigos QR por mascota
+| Tecnología | Uso |
+|---|---|
+| Firebase Firestore | Base de datos y persistencia |
+| Firebase Authentication | Autenticación de usuarios |
+| HTML / CSS / JavaScript | Frontend del sistema |
+| QR Code API | Generación de códigos QR por mascota |
+| GitHub | Control de versiones |
 
-## Metodología
+## Estructura del repositorio
 
-Desarrollado con SCRUM en dos sprints, completando las historias de
-registro de usuario (PPL-01), login (PPL-09) y registro de mascotas (PPL-02).
+```
+├── index.html                  Página principal del sitio
+├── styles.css                  Estilos del sitio
+├── scripts.js                  Lógica del sitio
+├── Documentos/                 Actividades en PDF
+└── codigo/                     Código fuente del sistema (.zip)
+```
 
 ## Sitio web
 
