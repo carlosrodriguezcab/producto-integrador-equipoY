@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Proyecto II — Equipo Y | Parque Limpio</title>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,300;0,700;1,300;1,700&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav>
+  <div class="nav-brand">Proyecto II — Equipo Y</div>
+  <ul class="nav-links">
+    <li><a href="#actividades">Actividades</a></li>
+    <li><a href="#proyecto">Sistema</a></li>
+    <li><a href="#reporte">Reporte</a></li>
+    <li><a href="https://github.com/jauviri1994-hash/Actividad-integradora-2" target="_blank">GitHub →</a></li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <div class="hero-left">
+    <div class="hero-tag">Universidad de Guadalajara · Proyecto II · 2026</div>
+    <h1 class="hero-title">Parque<br><em>Limpio.</em></h1>
+    <p class="hero-subtitle">Sistema web para la gestión del acceso a un parque canino mediante registro de usuarios, mascotas y control por código QR. Desarrollado con metodología ágil SCRUM.</p>
+    <a href="#actividades" class="hero-cta">Ver actividades →</a>
+  </div>
+  <div class="hero-right">
+    <div class="team-member">
+      <div>
+        <div class="member-name">Carlos Rodríguez Caballero</div>
+        <div class="member-role">Product Owner</div>
+      </div>
+      <div class="member-badge">PO</div>
+    </div>
+    <div class="team-member">
+      <div>
+        <div class="member-name">Diana Ornelas Ricardo</div>
+        <div class="member-role">Scrum Master</div>
+      </div>
+      <div class="member-badge">SM</div>
+    </div>
+    <div class="team-member">
+      <div>
+        <div class="member-name">Blanca V. Jauregui del Muro</div>
+        <div class="member-role">Frontend Developer</div>
+      </div>
+      <div class="member-badge">FE</div>
+    </div>
+    <div class="team-member">
+      <div>
+        <div class="member-name">Roberto C. Ortiz González</div>
+        <div class="member-role">Backend Developer</div>
+      </div>
+      <div class="member-badge">BE</div>
+    </div>
+    <div class="repo-link">
+      <a href="https://github.com/jauviri1994-hash/Actividad-integradora-2" target="_blank">
+        GitHub — jauviri1994-hash/Actividad-integradora-2 →
+      </a>
+    </div>
+  </div>
+</section>
+
+<section id="actividades">
+  <div class="container">
+    <div class="section-tag">Unidades 3 y 4</div>
+    <h2 class="section-title">Actividades<br>realizadas.</h2>
+    <div class="section-divider"></div>
+
+    <div class="acts-grid">
+      <div class="act-card" onclick="openModal('act1')">
+        <div class="act-unit">Unidad 3 · Actividad 1</div>
+        <div class="act-title">Primera fase de desarrollo, revisión y ajuste de los Sprints</div>
+        <div class="act-desc">Revisión del Sprint 1, identificación de historias incompletas y planificación del Sprint 2 con la nueva historia PPL-09, ajuste de estimaciones y reajuste de prioridades.</div>
+        <div class="act-footer">
+          <span class="act-arrow">ABRIR DOCUMENTO →</span>
+        </div>
+      </div>
+
+      <div class="act-card" onclick="openModal('act2')">
+        <div class="act-unit">Unidad 3 · Actividad 2</div>
+        <div class="act-title">Segunda fase de desarrollo, revisión y ajuste de los Sprints y el backlog</div>
+        <div class="act-desc">Seguimiento del Sprint 2 durante las primeras dos semanas: avance real del backlog, bloqueos técnicos encontrados y decisiones tomadas en los Daily Scrum.</div>
+        <div class="act-footer">
+          <span class="act-arrow">ABRIR DOCUMENTO →</span>
+        </div>
+      </div>
+
+      <div class="act-card" onclick="openModal('act3')">
+        <div class="act-unit">Unidad 3 · Actividad 3</div>
+        <div class="act-title">Tercera fase de desarrollo, revisión y ajuste de los Sprints y el backlog</div>
+        <div class="act-desc">Cierre formal del Sprint 2 con el Sprint Review, validación de las tres historias entregadas y Sprint Retrospective con fortalezas, áreas de mejora y acciones definidas.</div>
+        <div class="act-footer">
+          <span class="act-arrow">ABRIR DOCUMENTO →</span>
+        </div>
+      </div>
+
+      <div class="act-card" onclick="openModal('act4')">
+        <div class="act-unit">Unidad 3 · Actividad Integradora</div>
+        <div class="act-title">Producto final Unidad 3 — Gráficas de Burndown y Velocidad</div>
+        <div class="act-desc">Producto final del ciclo: métricas del Sprint 2, gráficas de Burndown y diagrama de flujo acumulado (CFD), con capturas del sistema funcionando en producción con Firebase Firestore.</div>
+        <div class="act-footer">
+          <span class="act-arrow">ABRIR DOCUMENTO →</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="proyecto">
+  <div class="container">
+    <div class="section-tag">Sistema implementado</div>
+    <h2 class="section-title">Parque Limpio<br><em style="font-family:'Fraunces',serif;font-style:italic;color:var(--green)">en funcionamiento.</em></h2>
+    <div class="section-divider"></div>
+
+    <div class="proyecto-grid">
+      <div class="proyecto-info">
+        <h3>Descripción del sistema</h3>
+        <p>Sistema web para la gestión y control de acceso a un parque canino. Permite a los residentes registrarse, registrar sus mascotas y generar códigos QR únicos por mascota para controlar el acceso al parque.</p>
+        <p>El sistema fue desarrollado de forma incremental usando la metodología Scrum, completando dos sprints con las historias de registro de usuario, login y registro de mascotas.</p>
+        <p>
+          <strong>Repositorio:</strong><br>
+          <a href="https://github.com/jauviri1994-hash/Actividad-integradora-2" target="_blank" style="color:var(--green);font-size:0.7rem;">
+            github.com/jauviri1994-hash/Actividad-integradora-2 →
+          </a>
+        </p>
+        <a href="codigo/Actividad-integradora-2-main.zip" download class="hero-cta" style="margin-top:1rem;font-size:0.65rem;">
+          ↓ Descargar código fuente (.zip)
+        </a>
+      </div>
+      <div>
+        <div class="stack-list">
+          <div class="stack-item">
+            <span class="stack-name">Firebase Firestore</span>
+            <span class="stack-use">Base de datos y persistencia</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-name">Firebase Authentication</span>
+            <span class="stack-use">Autenticación de usuarios</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-name">HTML / CSS / JS</span>
+            <span class="stack-use">Frontend del sistema</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-name">QR Code API</span>
+            <span class="stack-use">Generación de códigos QR por mascota</span>
+          </div>
+          <div class="stack-item">
+            <span class="stack-name">GitHub</span>
+            <span class="stack-use">Control de versiones</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reporte">
+  <div class="container">
+    <div class="section-tag">Reporte</div>
+    <h2 class="section-title">Modificaciones<br>realizadas.</h2>
+    <div class="section-divider"></div>
+    <h3>Resumen</h3>
+    <ul><br>
+      <li>El proyecto arrancó como trabajo individual y fue retomado por un equipo Scrum de 4 integrantes, lo que obligó a revisar y replantear el backlog original desde cero.</li>
+      <li>El Sprint 1 tenía PPL-01 y PPL-02 marcadas como completadas, pero al revisarlas en equipo se detectó que no cumplían todos los criterios de aceptación, por lo que se reincorporaron al Sprint 2.</li>
+      <li>Durante la planeación del Sprint 2 se agregó una historia nueva (PPL-09 Login), se redujeron los story points de PPL-01 y PPL-02, y se bajó la prioridad de PPL-04.</li>
+      <li>A lo largo del sprint el equipo enfrentó bloqueos técnicos y reajustó el orden de implementación priorizando el login antes que el registro de mascotas.</li>
+      <li>Las tres historias del Sprint 2 quedaron completadas al 100%, consumiendo las 109 horas estimadas y cerrando con 11 story points entregados.</li>
+      <li>El producto final incluye un sistema funcional con registro de usuarios, inicio de sesión y control de acceso por código QR, respaldado por Firebase como base de datos.</li>
+    </ul>
+    <div class="act-footer" style="margin-top:1.5rem;">
+      <span class="act-arrow" onclick="openModal('reporte')" style="cursor:pointer;">ABRIR REPORTE COMPLETO →</span>
+    </div>
+  </div>
+</section>
+<footer>
+  <div class="footer-brand">Parque Limpio — Equipo Y</div>
+  <div class="footer-info">
+    Proyecto II · Universidad de Guadalajara · 2026<br>
+    Asesora: Mtra. Deisy Acosta Ham
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modal-overlay" onclick="closeModalOnOverlay(event)">
+  <div class="modal" id="modal-content">
+    <div class="modal-header">
+      <div class="modal-header-info">
+        <div class="modal-unit" id="modal-unit"></div>
+        <div class="modal-title" id="modal-title"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal()">CERRAR</button>
+    </div>
+    <div class="modal-body">
+      <iframe id="pdf-modal-iframe" src="" title="Visor de documentos"></iframe>
+    </div>
+  </div>
+</div>
+<script src="scripts.js"></script>
+</body>
+</html>
